@@ -18,7 +18,8 @@ const UserSchema = new mongoose.Schema({
     type: String
   },
   points: {
-    type: Number
+    type: Number,
+    default: 0
   },
   date: {
     type: Date,
